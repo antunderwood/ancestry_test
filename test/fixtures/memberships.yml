@@ -1,0 +1,24 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  type: MyString
+  person_id: 1
+  group_id: 1
+
+two:
+  type: MyString
+  person_id: 1
+  group_id: 1
+
+# == Schema Information
+#
+# Table name: memberships
+#
+#  id         :integer         not null, primary key
+#  role       :string(255)
+#  member_id  :integer
+#  group_id   :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
